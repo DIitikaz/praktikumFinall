@@ -1,0 +1,113 @@
+<div class="container">
+  <h1 id="h1">workers data</h1>
+  <div class="buttonsContainer">
+    <mat-form-field class="search">
+      <input
+        matInput
+        (input)="applyFilter($event)"
+        placeholder="Search item"
+      />
+    </mat-form-field>
+    <button
+      mat-icon-button
+      color="primary"
+      (click)="addWorker()"
+      aria-label="Add"
+    >
+      <mat-icon>add</mat-icon> Add worker
+    </button>
+  </div>
+
+  <table
+    class="table table-striped"
+    id="table"
+  >
+    <thead>
+      <tr>
+        <th
+          scope="col"
+          class="col"
+        >
+          #
+        </th>
+        <th
+          scope="col"
+          class="col"
+        >
+          First Name
+        </th>
+        <th
+          scope="col"
+          class="col"
+        >
+          Last Name
+        </th>
+        <th
+          scope="col"
+          class="col"
+        >
+          Start Work Date
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        *ngFor="let worker of workersDisplay; let i = index"
+        class="rowHover1"
+        (mouseenter)="showIcons(i)"
+        (mouseleave)="hideIcons(i)"
+      >
+        <td class="col">{{ worker.workerId }}</td>
+        <td class="col">{{ worker.firstName }}</td>
+        <td class="col">{{ worker.lastName }}</td>
+        <td class="col">{{ worker.start_of_work_date }}</td>
+        <td class="col">
+          <div class="button-container">
+            <button
+              mat-icon-button
+              (click)="editWorker(worker)"
+            >
+              <mat-icon [ngClass]="{hover1: isHovered[i]}">edit</mat-icon>
+            </button>
+            <button
+              mat-icon-button
+              (click)="deleteWorker(worker)"
+            >
+              <mat-icon [ngClass]="{hover1: isHovered[i]}">delete</mat-icon>
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="d-flex justify-content-between p-2">
+    <mat-paginator
+      [length]="collectionSize"
+      [pageSize]="pageSize"
+      [pageIndex]="page - 1"
+      (page)="handlePageEvent($event)"
+      [pageSizeOptions]="[5, 10, 25, 100]"
+    ></mat-paginator>
+    <button
+      mat-icon-button
+      color="primary"
+      (click)="exportToExcel()"
+      aria-label="Export"
+    >
+      <mat-icon>download</mat-icon> Export to Excel
+    </button>
+    <!-- <mat-form-field>
+  
+        <mat-select  [(ngModel)]="pageSize" (ngModelChange)="refreshWorkers()">
+          <mat-option [value]="2">2 items per page</mat-option>
+          <mat-option [value]="4">4 items per page</mat-option>
+          <mat-option [value]="6">6 items per page</mat-option>
+        </mat-select>
+      </mat-form-field>
+	<select class="form-select" style="width: auto" [(ngModel)]="pageSize" (ngModelChange)="refreshWorkers()">
+		<option [ngValue]="2">2 items per page</option>
+		<option [ngValue]="4">4 items per page</option>
+		<option [ngValue]="6">6 items per page</option>
+	</select> -->
+  </div>
+</div>

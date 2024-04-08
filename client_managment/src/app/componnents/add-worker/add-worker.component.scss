@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+  color: azure;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.role-box {
+  width: 200px;
+  height: auto;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.role-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.role-field {
+  max-width: 200px;
+}
+.button_checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
