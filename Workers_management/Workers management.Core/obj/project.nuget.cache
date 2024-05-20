@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rEn5/PsPQFSmf2/YUdgOOEY9o8e4h5pXCXgfUX9FYsNWRPCR2uuE9YKkKefccZTv49OGyK73rK4VJqnuOWtDAw==",
+  "dgSpecHash": "cNaguw16L6A53nTf0vWYo4GjRNJmJCwayQuUl9xr4SFA21UEh6ZJIGsZ/LdQI642ObVXUtCphGb4LEVkYDjd8A==",
   "success": true,
-  "projectFilePath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Core\\Workers management.Core.csproj",
+  "projectFilePath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Core\\Workers management.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hitmachut\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\hitmachut\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"

@@ -1,27 +1,56 @@
-# ClientManagment
+# Employee List Management Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+This project is an Angular application for managing the employee list of an organization. It allows adding, deleting, and editing employee details. The server side is implemented using .NET 6 and above.
 
-## Development server
+The server is running on port 7039.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Getting Started
 
-## Code scaffolding
+### Launching the Application
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Make sure the server is running on port 7268.
+2. Navigate to the project directory in the terminal.
+3. Run `ng serve` to start the Angular application. Open [http://localhost:4200](http://localhost:4200) to view it in your browser.
 
-## Build
+### Available Scripts
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+In the project directory, you can run:
 
-## Running unit tests
+- `ng serve`: Runs the app in development mode.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+The build is optimized for performance and ready for deployment.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Project Features
 
-## Further help
+1. Employee list management page including:
+   - First name
+   - Surname
+   - Title
+   - Date of Entry
+   - Actions for adding, deleting, and editing employees
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Employee form for adding/editing with the following fields:
+   - First name
+   - Surname
+   - Identity
+   - Gender
+   - Date of Birth
+   - Date of Commencement
+   - Roles with dynamic addition:
+     - Position name (from pre-defined list)
+     - Management/Non-management position
+     - Entry date (later than or equal to the start work date)
+   
+3. Search field to filter the displayed items in the list based on text input.
+4. Export functionality to export the list to an Excel file for download.
+
+## Server Side
+
+- API implemented to save the data
+- Data stored in a SQL database
+- Project structure follows the layer model architecture
+
+## Learn More
+
+For more information, you can refer to the [Angular documentation](https://angular.io/docs).

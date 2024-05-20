@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Data\\Workers management.Data.csproj": {}
+    "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Data\\Workers management.Data.csproj": {}
   },
   "projects": {
-    "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Core\\Workers management.Core.csproj": {
+    "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Core\\Workers management.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Core\\Workers management.Core.csproj",
+        "projectUniqueName": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Core\\Workers management.Core.csproj",
         "projectName": "Workers management.Core",
-        "projectPath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Core\\Workers management.Core.csproj",
+        "projectPath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Core\\Workers management.Core.csproj",
         "packagesPath": "C:\\Users\\hitmachut\\.nuget\\packages\\",
-        "outputPath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Core\\obj\\",
+        "outputPath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\hitmachut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,17 +70,21 @@
         }
       }
     },
-    "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Data\\Workers management.Data.csproj": {
+    "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Data\\Workers management.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Data\\Workers management.Data.csproj",
+        "projectUniqueName": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Data\\Workers management.Data.csproj",
         "projectName": "Workers management.Data",
-        "projectPath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Data\\Workers management.Data.csproj",
+        "projectPath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Data\\Workers management.Data.csproj",
         "packagesPath": "C:\\Users\\hitmachut\\.nuget\\packages\\",
-        "outputPath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Data\\obj\\",
+        "outputPath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\hitmachut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Core\\Workers management.Core.csproj": {
-                "projectPath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Core\\Workers management.Core.csproj"
+              "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Core\\Workers management.Core.csproj": {
+                "projectPath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Core\\Workers management.Core.csproj"
               }
             }
           }

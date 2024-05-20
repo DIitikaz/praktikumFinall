@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/KTz6K8FzffdOQ7IuWEjaOHQDtK4sEfyyJSsOvbyZ22oX6ZRqfxD+J/NE4aICFbOW9J8ZDcccLxgIrh78cT0/A==",
+  "dgSpecHash": "Eb5lkTUL13l6D/YBRtBzh13DIP2XAEGTc1jdKlR6JArEWBzeocTlThryjo4By07uprLPHoIDWDcvmaGHKuoXDA==",
   "success": true,
-  "projectFilePath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers management.Data\\Workers management.Data.csproj",
+  "projectFilePath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers management.Data\\Workers management.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hitmachut\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\hitmachut\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

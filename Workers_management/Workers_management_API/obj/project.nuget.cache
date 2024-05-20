@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PmXHZhhJl6mvmOFmpzG3v0hggKLlg5qijUPrngnATvK5Rt70lWP07R76GTgu9Deu4XOAFuMtw+odMHLKu1r3Zw==",
+  "dgSpecHash": "4h7iiPibMWGc8w0CKGJ/eT6QvGqasATjFoWCss5vOR21Z+mzJE9pb7kxNZ+HLJTt+GPAiej14zhECJ9kYJgYxQ==",
   "success": true,
-  "projectFilePath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikum\\Workers_management\\Workers_management_API\\Workers management.API.csproj",
+  "projectFilePath": "Y:\\Groups\\Group_3\\קצנלבוגן  יהודית\\praktikumFinall\\Workers_management\\Workers_management_API\\Workers management.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hitmachut\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\hitmachut\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

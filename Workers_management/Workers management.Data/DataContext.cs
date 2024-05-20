@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using Workers_management.Core.models;
@@ -23,6 +24,16 @@ namespace Workers_management.Data
         {
             modelBuilder.Entity<WorkerRole>()
                 .HasKey(e => new { e.RoleNameId, e.WorkerId });
+
+            // Seeding an initial admin user
+            modelBuilder.Entity<UserModel>().HasData(
+                new UserModel { Id = 1, Name = "admin", Password = "123456" }
+            );
+            modelBuilder.Entity<RoleName>().HasData(
+               new RoleName { Id = 1, Name = "Teacher" },
+               new RoleName { Id = 2, Name = "Officer" },
+               new RoleName { Id = 3, Name = "Principal" }
+           );
         }
     }
 }
